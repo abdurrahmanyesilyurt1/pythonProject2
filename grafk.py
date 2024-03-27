@@ -27,8 +27,8 @@ class Firma:
         self.personel_listesi.remove(personel)
 
 
-personel1 = Personel("Ahmet", "Muhasebe", 5, 3000)
-personel2 = Personel("Mehmet", "Muhasebe", 2, 2000)
+personel1 = Personel("Abd", "bilgisayar", 5, 3000)
+personel2 = Personel("mlk", "yazilim", 2, 2000)
 
 firma = Firma()
 firma.personel_ekle(personel1)
